@@ -1,0 +1,1 @@
+/home/mathias/src/github.com/mestru17/dotfiles/.config/fish/config.fish
