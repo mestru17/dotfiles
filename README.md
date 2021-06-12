@@ -11,5 +11,5 @@ curl -L https://raw.githubusercontent.com/mestru17/dotfiles/master/install_dotfi
 ```
 
 ## Usage
-After installing, your fish shell should have a new alias, `dotfiles`, which works just like `git` (i.e. `git add ...`, `git commit -m ...`, etc.). Keep in mind, however, that only the owner can contribute to this repository.
+After installing, your fish shell should have a new alias, `dotfiles`, which works just like `git` (i.e. `dotfiles add ...`, `dotfiles commit -m ...`, etc.). Keep in mind, however, that only the owner can contribute to this repository.
 
