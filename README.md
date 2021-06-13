@@ -2,7 +2,10 @@
 My dot files.
 
 ## Requirements
-If you want to install all of the dot files in one go as described below, you will need to have [fish](https://fishshell.com/) installed, as the installer script is a fish script. Technically, it might be possible to run in other shells but this repository makes no guarantee of that.
+If you want to install all of the dot files in one go as described below, you will need the following:
+
+- [fish](https://fishshell.com/) - The installer script is a fish script. Technically, it might be possible to run in other shells but this repository makes no guarantee of that.
+- [git](https://git-scm.com/) - The script uses git to clone this repository and pull the files.
 
 ## Installation
 Either manually pick and choose the files you want or install them all in one go:
