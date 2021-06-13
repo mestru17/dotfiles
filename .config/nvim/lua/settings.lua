@@ -2,7 +2,7 @@ vim.o.termguicolors = true
 vim.o.background = "dark"
 vim.wo.relativenumber = true
 vim.wo.cursorline = true
-vim.cmd("set guicursor+=a:-blinkwait175-blinkoff150-blinkon175")
+--vim.cmd("set guicursor+=a:-blinkwait175-blinkoff150-blinkon175")
 vim.cmd('syntax enable')
 vim.cmd('syntax on')
 vim.o.mouse = "a" -- Enable your mouse
