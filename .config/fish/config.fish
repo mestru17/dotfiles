@@ -24,3 +24,6 @@ alias lt='exa -aT --color=always --group-directories-first --icons'
 alias dotfiles="/usr/bin/git --git-dir=$HOME/dotfiles --work-tree=$HOME"
 alias dotfiles-lg="lazygit -g=$HOME/dotfiles -w=$HOME"
 
+# lazygit
+alias lg="lazygit"
+
