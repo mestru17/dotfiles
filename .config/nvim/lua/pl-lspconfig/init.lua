@@ -6,7 +6,7 @@ vim.cmd("nnoremap <silent> gi <cmd>lua vim.lsp.buf.implementation()<CR>")
 vim.cmd("nnoremap <silent> K <cmd>lua vim.lsp.buf.hover()<CR>")
 
 -- Auto format
-vim.cmd("autocmd BufWritePre *.lua lua vim.lsp.buf.formatting_sync(nil, 100)")
+vim.api.nvim_command([[autocmd BufWritePre *.rs lua vim.lsp.buf.formatting_sync(nil, 100)]])
 
 -- Icons
 vim.lsp.handlers["textDocument/publishDiagnostics"] = vim.lsp.with(
