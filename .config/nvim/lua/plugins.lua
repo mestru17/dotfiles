@@ -36,10 +36,10 @@ return require('packer').startup(
     use "windwp/nvim-autopairs"
 
     -- Fuzzy finder
-    use {
-      'nvim-telescope/telescope.nvim',
-      requires = {{'nvim-lua/popup.nvim'}, {'nvim-lua/plenary.nvim'}}
-    }
+    --use {
+    --  'nvim-telescope/telescope.nvim',
+    --  requires = {{'nvim-lua/popup.nvim'}, {'nvim-lua/plenary.nvim'}}
+    --}
 
     -- Status line
     use 'glepnir/galaxyline.nvim'
